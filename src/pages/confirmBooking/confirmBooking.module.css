@@ -1,0 +1,145 @@
+.coverPhoto{
+   width: 100%;
+   height: 170px;
+   object-fit: cover;
+   background-color: #000;
+}
+.profilePhoto{
+   width: 70px;
+   height: 70px;
+   border-radius: 4px;
+}
+.profileWrapper{
+   position: sticky;
+   top: 0;
+   z-index: 3;
+}
+.profileImg{
+   position: absolute;
+   top: 80%;
+   transform: translateY(-80%);
+   left: 40px;
+   display: flex;
+   align-items: center;
+}
+.backBtn{
+   position: absolute;
+   top: 30px;
+   left: 20px;
+   display: flex;
+   align-items: center;
+}
+.backBtn img{
+   width: 30px;
+   height: 30px
+}
+.backBtnText{
+   font-size: 18px;
+   color: #fff;
+   padding-left: 15px;
+}
+.profileImg .detailDesc{
+   color: #fff;
+   padding-left: 20px;
+}
+.detailHeading{
+   text-transform: capitalize;
+}
+.serviceText {
+   display: flex;
+   flex-direction: row;
+   color: #3CB971;
+   padding: 20px 50px;
+ }
+ .serviceText:before, .serviceText:after{
+   content: "";
+   flex: 1 1;
+   border-bottom: 1px solid #D8D8D8;
+   margin: auto;
+ }
+ .serviceText:before {
+   margin-right: 20px
+ }
+ .serviceText:after {
+   margin-left: 20px
+ }
+ .serviceBottom{
+   padding: 30px 30px 20px;
+ }
+ .serviceBottomDetail{
+    display: flex;
+    align-items: self-start;
+    padding-bottom: 20px;
+ }
+ .serviceBottomDetail span{
+    font-weight: 600;
+    padding-right: 10px;
+ }
+ .serviceIcon{
+   width: 25px;
+   height: 25px;
+   margin-right: 25px;
+ }
+ .confirmBookingCardWrapper{
+   padding: 0px 50px 15px;
+   display: flex;
+   align-items: center;
+   border-bottom: 2px solid #3CB971;
+ }
+ .confirmBookingCard{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 80px;
+   height: 105px;
+   border-radius: 4px;
+   background-color: #2181F2;
+   padding: 10px;
+ }
+ .confirmBookingCardText{
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 5px;
+ }
+ .confirmBookingCardRightText{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+ }
+ .timingWrapper{
+    background-color: #F9F9F7;
+    display: flex;
+    justify-content: space-between;
+ }
+ .border{
+    border: 1px solid #EAEBEB;
+ }
+ .date{
+    padding: 15px 50px;
+ }
+ .timingWrapperLabel{
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .timingWrapperText{
+    font-weight: 300;
+ }
+ .time{
+    padding: 15px 50px;
+ }
+ .numberPlate{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 320px;
+   margin: 0 auto;
+   border: 1px solid #979797;
+   padding: 10px 20px;
+   border-radius: 10px;
+   margin-bottom: 30px;
+ }
+ .numberPlateLeft{
+    font-size: 30px;
+ }

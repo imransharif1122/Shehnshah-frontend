@@ -1,0 +1,12 @@
+.btnStyle {
+   width: 115px;
+   height: 35px;
+   font-size: 16px;
+   color: #000000;
+   text-align: center;
+   line-height: 35px;
+   background-color: transparent;
+   border-width: 1px;
+   border-style: solid;
+   border-radius: 5px;
+}

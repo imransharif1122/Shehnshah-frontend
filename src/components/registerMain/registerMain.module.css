@@ -1,0 +1,25 @@
+.bookingDiv{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.bookingImg{
+   height: 50px;
+   width: 50px;
+}
+.bookingDiv{
+   padding: 10px 15px;
+}
+.slotImgWrapper{
+   position: relative;
+}
+.slotNumber{
+   font-size: 14px;
+   position: absolute;
+   top: 8px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.borderOrange{
+   border: 1px solid #F48C38;
+}

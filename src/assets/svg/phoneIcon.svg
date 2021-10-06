@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="27px" viewBox="0 0 16 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>phone-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Detail-screen-1" transform="translate(-35.000000, -557.000000)" stroke="#000000">
+            <g id="phone-icon" transform="translate(35.000000, 557.000000)">
+                <rect id="Rectangle" stroke-width="1.2" x="0.6" y="0.6" width="13.8" height="25.5272727" rx="3"></rect>
+                <path d="M0.681818182,5.59090909 L14.5909091,5.59090909" id="Line" stroke-linecap="square"></path>
+                <path d="M0.681818182,21 L14.5909091,21" id="Line-Copy" stroke-linecap="square"></path>
+                <path d="M5.86363636,23.8636364 L9.40909091,23.8636364" id="Line-Copy-2" stroke-linecap="round"></path>
+                <path d="M7.90909091,3 L10.0909091,3" id="Line-Copy-3" stroke-linecap="round"></path>
+                <path d="M5.18181818,3 L6,3" id="Line-Copy-4" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

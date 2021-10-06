@@ -1,0 +1,27 @@
+.homeSticky{
+   padding: 10px 15px;
+   position: sticky;
+   top: 78px;
+   background: #fff;
+   z-index: 2;
+}
+.homeStickyWrapper{
+   display: flex;
+   border-bottom: 1px solid #EAEBEB;
+   align-items: center;
+   padding: 5px 20px;
+}
+.leftText{
+   font-size: 28px;
+   font-weight: 400;
+   padding-right: 20px;
+}
+.rightText{
+   font-size: 20px;
+   font-weight: 300;
+   padding-left: 20px;
+   border-left: 1px solid #EAEBEB;
+}
+.homeCardContainer{
+   padding-bottom: 85px;
+}

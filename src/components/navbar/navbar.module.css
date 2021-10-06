@@ -1,0 +1,49 @@
+.navMenu{
+   position: fixed;
+  bottom: 0;
+  box-shadow: 0 -2px 5px -2px #333;
+  background-color: #fff;
+  width: 600px;
+  z-index: 3;
+}
+.navImg{
+   width: 20px;
+   height: 20px;
+}
+.navLink{
+   color: #000;
+   position: relative;
+}
+.navLink:hover{
+   text-decoration: none;
+}
+.navList{
+   list-style: none;
+   padding: 7px 0px;
+   margin-bottom: 0;
+   display: flex;
+   justify-content: space-around;
+}
+.navListItem{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   width: 55px;
+   height: 55px;
+   position: relative;
+   z-index: 2;
+}
+.navListActive{
+   color: #2181F2;
+   background: #D9D8D8;
+   border-radius: 50%;
+}
+.navListActive .navImg{
+   filter: invert(37%) sepia(92%) saturate(1543%) hue-rotate(197deg) brightness(95%) contrast(99%);
+}
+.itemName{
+   font-size: 10px;
+   padding-top: 5px;
+}

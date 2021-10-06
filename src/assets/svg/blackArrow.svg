@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>back-arrow-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Available-Slots-1-Copy" transform="translate(-16.000000, -42.000000)">
+            <g id="back-arrow-black" transform="translate(16.000000, 42.000000)">
+                <circle id="Oval-Copy-7" stroke="#000000" cx="17.5" cy="17.5" r="17"></circle>
+                <path d="M20.4866393,26.7931034 C20.6241268,26.9310345 20.7959863,27 20.9850316,27 C21.1740769,27 21.3459364,26.9310345 21.4834239,26.7931034 C21.7583989,26.5172414 21.7583989,26.0689655 21.4834239,25.7931034 L12.7185941,17 L21.4834239,8.20689655 C21.7583989,7.93103448 21.7583989,7.48275862 21.4834239,7.20689655 C21.2084488,6.93103448 20.7616144,6.93103448 20.4866393,7.20689655 L11.2062313,16.5 C10.9312562,16.7758621 10.9312562,17.2241379 11.2062313,17.5 L20.4866393,26.7931034 L20.4866393,26.7931034 Z" id="left-arrow" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

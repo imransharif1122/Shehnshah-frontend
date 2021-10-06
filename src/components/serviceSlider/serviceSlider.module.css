@@ -1,0 +1,26 @@
+.detailCard{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid #2181F2;
+   border-radius: 10px;
+   height: 110px;
+   width: 80px;
+   margin: 0 auto;
+   justify-content: center;
+}
+.sliderBorder{
+   border-bottom: 3px solid #3CB971;
+   padding-bottom: 30px;
+}
+.detailCardText{
+   font-size: 12px;
+   padding-top: 5px;
+}
+.detailCard.active{
+   background-color: #2181F2;
+}
+.detailCard:hover{
+   background-color: #2181F2;
+   cursor: pointer;
+}

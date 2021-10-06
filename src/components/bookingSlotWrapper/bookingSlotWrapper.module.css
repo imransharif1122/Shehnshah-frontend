@@ -1,0 +1,33 @@
+.slotImgWrapper{
+   position: relative;
+}
+.slotImgWrapper::after{
+   content: "";
+   height: 25px;
+   left: 50%;
+   width: 2px;
+   bottom: -24px;
+   border: 1px solid #979797;
+   position: absolute;
+}
+.slotImgWrapper:last-child::after{
+   height: 0px;
+}
+.slotNumber{
+   position: absolute;
+   top: 21px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.time{
+   color: #F48C38;
+}
+.btnTime{
+   text-align: center;
+   padding-top: 5px;
+   font-size: 14px;
+   font-weight: 300;
+}
+.borderOrange{
+   border-color: #F48C38 !important;
+}

@@ -1,0 +1,42 @@
+.customContainer{
+    width: 600px;
+    margin:0 auto;
+    border-radius: 20px;
+    background-color: #fff;
+    padding:30px 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.verificationImg img{
+    width: 124px;
+    height: 124px;
+}
+.backImg img{
+    width: 12px;
+    height: 20px;
+    cursor: pointer;
+  }
+.resend{
+    font-size: 16px;
+}
+.heading{
+    color: #34252D;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.subHeading{
+    color: #535353;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.headingSm{
+    font-size: 13px;
+    font-weight: 400;
+    color: #979797;
+    text-align: center;
+    padding-top: 50px;
+}

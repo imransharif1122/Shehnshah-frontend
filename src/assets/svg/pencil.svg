@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="9.63949689 3.67646645 15.076217 3.67646645 15.076217 5.03564648 9.63949689 5.03564648"></polygon>
+        <filter x="-138.0%" y="-551.8%" width="375.9%" height="1203.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.980392157   0 0 0 0 0.933333333   0 0 0 0 0.223529412  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Final-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu-screen-copy-8" transform="translate(-35.000000, -162.000000)">
+            <g id="Group" transform="translate(35.000000, 162.000000)">
+                <circle id="Oval" fill="#000000" cx="14.5" cy="14.5" r="14.5"></circle>
+                <g id="icons-36px-/-Edit-pen-Copy" transform="translate(6.000000, 5.000000)">
+                    <g id="Edit-pen" transform="translate(0.189394, 0.155971)">
+                        <g id="Shape" fill-rule="nonzero" transform="translate(12.357857, 4.356056) rotate(45.000000) translate(-12.357857, -4.356056) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                        </g>
+                        <path d="M2.02505749,10.5912922 C1.70678509,10.9092044 1.50394107,11.2476403 1.37396268,11.6782965 L1.37367045,11.6792479 L0.154316065,15.7124108 C0.000898618539,16.2197247 0.488171457,16.7106605 0.996627117,16.5610828 L5.04973596,15.3686741 C5.48868316,15.2397559 5.83269162,15.035675 6.15604055,14.7119863 L16.2646023,4.60339739 C17.1173518,3.75079055 15.7829089,2.06229479 15.2167424,1.4966924 C14.648809,0.92941143 12.9902696,-0.374222315 12.1388113,0.477562901 L2.02505749,10.5912922 Z M15.1154156,3.8304453 L5.2157598,13.7301146 C5.02894051,13.9169339 4.89179924,13.9983488 4.63824421,14.0729678 L1.81919608,14.9022715 L2.66644775,12.0999141 C2.74152206,11.851456 2.82285539,11.7156739 3.00636508,11.5321846 L12.9190486,1.61946713 C13.8224955,1.74506217 14.9815363,2.93653298 15.1154156,3.8304453 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

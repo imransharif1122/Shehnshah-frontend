@@ -1,0 +1,74 @@
+.coverPhoto{
+   width: 100%;
+   height: 170px;
+   object-fit: cover;
+   background-color: #000;
+}
+.profilePhoto{
+   width: 70px;
+   height: 70px;
+   border-radius: 4px;
+}
+.profileWrapper{
+   position: sticky;
+   top: 0;
+   z-index: 3;
+}
+.profileImg{
+   position: absolute;
+   top: 80%;
+   transform: translateY(-80%);
+   left: 40px;
+   display: flex;
+   align-items: center;
+}
+.backBtn{
+   position: absolute;
+   top: 30px;
+   left: 20px;
+}
+.backBtn img{
+   width: 30px;
+   height: 30px
+}
+.profileImg .detailDesc{
+   color: #fff;
+   padding-left: 20px;
+}
+.detailHeading{
+   text-transform: capitalize;
+}
+.serviceText {
+   display: flex;
+   flex-direction: row;
+   color: #3CB971;
+   padding: 20px 50px;
+ }
+ .serviceText:before, .serviceText:after{
+   content: "";
+   flex: 1 1;
+   border-bottom: 1px solid #D8D8D8;
+   margin: auto;
+ }
+ .serviceText:before {
+   margin-right: 20px
+ }
+ .serviceText:after {
+   margin-left: 20px
+ }
+ .serviceBottom{
+   padding: 50px 30px 20px;
+ }
+ .serviceBottomDetail{
+    display: flex;
+    align-items: self-start;
+    padding-bottom: 20px;
+ }
+ .serviceBottomDetail span{
+    font-weight: 600;
+ }
+ .serviceIcon{
+   width: 25px;
+   height: 25px;
+   margin-right: 25px;
+ }

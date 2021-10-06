@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="25px" viewBox="0 0 14 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>left-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu-screen-copy-14" transform="translate(-331.000000, -29.000000)" fill="#000000">
+            <path d="M342.858299,53.7413793 C343.030159,53.9137931 343.244983,54 343.481289,54 C343.717596,54 343.93242,53.9137931 344.10428,53.7413793 C344.447999,53.3965517 344.447999,52.8362069 344.10428,52.4913793 L333.148243,41.5 L344.10428,30.5086207 C344.447999,30.1637931 344.447999,29.6034483 344.10428,29.2586207 C343.760561,28.9137931 343.202018,28.9137931 342.858299,29.2586207 L331.257789,40.875 C330.91407,41.2198276 330.91407,41.7801724 331.257789,42.125 L342.858299,53.7413793 L342.858299,53.7413793 Z" id="left-arrow"></path>
+        </g>
+    </g>
+</svg>

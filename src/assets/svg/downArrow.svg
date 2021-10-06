@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="9px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>right-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Available-Slots-1-Copy-5" transform="translate(-369.000000, -132.000000)" fill="#6E6E6E">
+            <path d="M373.529319,144 C373.387306,144 373.258204,143.948276 373.154923,143.844828 C372.948359,143.637931 372.948359,143.301724 373.154923,143.094828 L379.73913,136.5 L373.154923,129.905172 C372.948359,129.698276 372.948359,129.362069 373.154923,129.155172 C373.361486,128.948276 373.697151,128.948276 373.903715,129.155172 L380.862319,136.125 C381.068882,136.331897 381.068882,136.668103 380.862319,136.875 L373.903715,143.844828 C373.800433,143.948276 373.671331,144 373.529319,144 Z" id="right-arrow" transform="translate(377.008621, 136.500000) rotate(-270.000000) translate(-377.008621, -136.500000) "></path>
+        </g>
+    </g>
+</svg>

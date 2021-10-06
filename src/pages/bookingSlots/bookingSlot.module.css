@@ -1,0 +1,40 @@
+.slotsTopWrapper{
+   background: #f9f9f9;
+   padding: 30px 20px 20px;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+}
+.slotsTopText{
+   font-size: 18px;
+   font-weight: 600;
+   flex: 1;
+   padding-left: 20px;
+}
+.slotsDate{
+   padding: 20px 15px 10px;
+   display: flex;
+   justify-content: center;
+   position: sticky;
+   top: 85px;
+   z-index: 2;
+   background-color: #fff;
+}
+.today{
+   font-size: 21px;
+   padding-right: 10px;
+   border-right: 1px solid #D8D8D8;
+}
+.slotsDateText .date{
+   font-size: 16px;
+   font-weight: 400;
+   color: #3C3D41;
+   padding-left: 10px;
+}
+.slotsDateText{
+   padding: 0 30px 15px 30px;
+   border-bottom: 1px solid #D8D8D8;
+}
+.borderOrange {
+   border-color: orange;
+}

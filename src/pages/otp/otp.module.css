@@ -1,0 +1,38 @@
+.customContainer{
+    width: 600px;
+    margin:0 auto;
+    border-radius: 20px;
+    background-color: #fff;
+    padding:30px 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.otpImg img{
+    width: 124px;
+    height: 124px;
+}
+.heading{
+    color: #34252D;
+    font-size: 24px;
+    font-weight: 600;
+}
+.subHeading{
+    color: #535353;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.headingSm{
+    font-size: 13px;
+    font-weight: 400;
+    color: #979797;
+    padding-top: 50px;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="85px" viewBox="0 0 84 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-13.8%" y="-13.8%" width="127.6%" height="127.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="-2" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-29.0%" y="-17.1%" width="159.4%" height="135.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Final-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Available-Slots-1-Copy-4" transform="translate(-302.000000, -492.000000)">
+            <g id="Group-13" transform="translate(306.000000, 494.000000)">
+                <g id="Group-34" transform="translate(3.000000, 2.901754)" fill="#2181F2">
+                    <g id="Group-19">
+                        <g id="Group-18" filter="url(#filter-1)" transform="translate(0.877193, 0.326316)">
+                            <path d="M0.122807018,38.1730981 C0.122807018,17.4627256 16.9119796,0.673684211 37.6231001,0.673684211 C58.3336344,0.673684211 75.122807,17.4627256 75.122807,38.1730981 C75.122807,58.8840567 58.3336344,75.6736842 37.6231001,75.6736842 C16.9119796,75.6736842 0.122807018,58.8840567 0.122807018,38.1730981" id="Fill-16"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-6" filter="url(#filter-2)" transform="translate(0.000000, -0.000000)" fill="#FCC533">
+                    <path d="M41.2785965,0.252631579 C18.4185965,0.524912281 0,19.1066667 0,42.0322807 C0,52.8017544 4.06736842,62.6098246 10.7442105,70.0154386 L16.9961404,64.4638596 L23.2410526,58.9161404 L35.7491228,47.8017544 L40.9592982,43.1715789 L41.2785965,42.8884211 L41.2785965,0.252631579 Z" id="Fill-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

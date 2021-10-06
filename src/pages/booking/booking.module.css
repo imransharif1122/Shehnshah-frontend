@@ -1,0 +1,31 @@
+.carSticky{
+   background: #F6F6F6;
+   position: sticky;
+   top: 83px;
+   z-index: 2;
+}
+.oilSticky{
+   background: #F6F6F6;
+   position: sticky;
+   top: 144px;
+   z-index: 2;
+}
+.bookingStickyWrapper{
+   padding: 15px;
+   display: flex;
+   font-size: 21px;
+   align-items: center;
+   justify-content: space-around;
+}
+.date{
+   font-size: 14px;
+}
+.borderOrange{
+   border: 1px solid #F48C38;
+}
+.borderGreen{
+   border: 1px solid #BDC32C;
+}
+.borderBlack{
+   border:1px solid #2F2F2E;
+}
