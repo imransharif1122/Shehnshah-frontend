@@ -11,7 +11,7 @@ function Navbar() {
       <>
          <nav className={Style.navMenu}>
             <ul className={Style.navList}>
-               <NavLink to="/home" className={Style.navLink} activeClassName={Style.navListActive}>
+               <NavLink to="/services" className={Style.navLink} activeClassName={Style.navListActive}>
                <li className={Style.navListItem}>
                   <img src= {HomeSvg} alt="home" className={Style.navImg} /> <span className={Style.itemName}>Home</span>
                </li>

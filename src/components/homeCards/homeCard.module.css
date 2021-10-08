@@ -1,85 +1,86 @@
-.cardWrapper{
-   box-shadow: 0px 2px 4px 0px rgba(0,0,0,1);
-   -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,1);
-   -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,1);
+.cardWrapper {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 1);
 }
-.profile{
-   width: 50px;
-   height: 50px;
-   border-radius: 50%;
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
-.leftTopCard{
-   flex: 1;
-   display: flex;
-   align-items: center;
-   padding: 10px;
-   border-bottom: 1px solid #EAEBEB;
+.leftTopCard {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eaebeb;
 }
-.rightTopCard{
-   padding: 10px;
+.rightTopCard {
+  padding: 10px;
 }
-.rightTopCardImg{
-   width: 70px;
-   height: 70px;
+.rightTopCardImg {
+  width: 70px;
+  height: 70px;
 }
-.mainCardWrapper{
-   padding: 7px 15px;
+.mainCardWrapper {
+  padding: 7px 15px;
+  transition: 0.5s all ease-in-out;
 }
-.userName{
-   font-size: 17px;
-   line-height: 25px;
-   font-weight: 500;
+.userName {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 500;
 }
-.userEmail{
-   font-size: 14px;
-   font-weight: 200;
+.userEmail {
+  font-size: 14px;
+  font-weight: 200;
 }
-.middleCard{
-   padding: 20px;
-   display: flex;
+.middleCard {
+  padding: 20px;
+  display: flex;
 }
-.middleRight{
-   flex: 1;
+.middleRight {
+  flex: 1;
 }
-.middleLeft{
-   flex: 1;
+.middleLeft {
+  flex: 1;
 }
-.middleLabel{
-   font-size: 14px;
-   line-height: 22px;
-   font-weight: 500;
+.middleLabel {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
 }
-.middleText{
-   font-size: 16px;
-   line-height: 22px;
-   font-weight: 300;
+.middleText {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
 }
-.middleBorder{
-   border: 1px solid #EAEBEB;
-   margin: 0 30px;
+.middleBorder {
+  border: 1px solid #eaebeb;
+  margin: 0 30px;
 }
-.bottomCard{
-   background-color: #F9F9F7;
-   display: flex;
+.bottomCard {
+  background-color: #f9f9f7;
+  display: flex;
 }
-.leftBottom{
-   flex: 2;
-   padding: 8px;
-   font-size: 16px;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
+.leftBottom {
+  flex: 2;
+  padding: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.rightBottom{
-   flex: 1;
+.rightBottom {
+  flex: 1;
 }
-.btnCancel{
-   background-color: #E20000;
-   height: 45px;
-   line-height: 45px;
-   text-align: center;
+.btnCancel {
+  background-color: #e20000;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
 }
-.leftBottomLabel{
-   border-right: 1px solid #e2e2e2;
-   padding-right: 20px;
+.leftBottomLabel {
+  border-right: 1px solid #e2e2e2;
+  padding-right: 20px;
 }
