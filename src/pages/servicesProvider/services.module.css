@@ -1,14 +1,15 @@
-.home{
-   background-color: #F9F9F9;
-   min-height: 100vh;
+.home {
+  background-color: #fff;
+  min-height: 100vh;
 }
-.cardMain{
-   overflow-y: auto;
+.cardMain {
+  overflow-y: auto;
 }
-.serviceLink{
-   color: inherit !important;
+.serviceLink {
+  color: inherit !important;
+  cursor: pointer;
 }
-.serviceLink:hover{
-   text-decoration: none;
-   color: inherit !important;
+.serviceLink:hover {
+  text-decoration: none;
+  color: inherit !important;
 }

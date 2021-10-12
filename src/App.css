@@ -1,26 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-a:hover{
-  color: #2181F2 !important;
+a:hover {
+  color: #2181f2 !important;
 }
-body{
+body {
   background-color: #f0f2f5 !important;
 }
-.fullContainer{
+.fullContainer {
   width: 600px;
   margin: 0 auto;
   min-height: 100vh;
   background-color: #fff;
 }
-.btnBlack{
+.loader {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+}
+.btnBlack {
   background-color: #000;
   color: #fff;
-  border:2px solid #fff;
+  border: 2px solid #fff;
   font-size: 18px;
   font-weight: 400;
   padding: 10px 20px;
@@ -28,7 +35,7 @@ body{
   text-transform: uppercase;
   width: 285px;
 }
-.topHeading{
+.topHeading {
   font-size: 18px;
   font-weight: 600;
   padding: 30px 20px 20px 40px;
@@ -36,107 +43,108 @@ body{
   position: sticky;
   top: 0;
   z-index: 2;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
-.PhoneInput{
+.PhoneInput {
   border-bottom: 2px solid #979797;
   padding: 20px 15px 0px 15px;
 }
-.PhoneInputInput{
-  border:none;
+.PhoneInputInput {
+  border: none;
   padding-left: 20px;
   padding-bottom: 8px;
   font-size: 21px;
   font-weight: 300;
 }
-.pb-85{
+.pb-85 {
   padding-bottom: 85px;
 }
-.PhoneInputCountry{
+.PhoneInputCountry {
   padding-bottom: 8px;
 }
-.PhoneInputInput:focus{
+.PhoneInputInput:focus {
   outline: none;
 }
-.styles_react-code-input__CRulA > input{
-  border:none !important;
+.styles_react-code-input__CRulA > input {
+  border: none !important;
   border-bottom: 2px solid #979797 !important;
   border-radius: 0 !important;
   margin-right: 15px;
   font-size: 48px !important;
   color: #000 !important;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
-.react-multiple-carousel__arrow:hover{
+.react-multiple-carousel__arrow:hover {
   background: transparent !important;
 }
-.react-multiple-carousel__arrow::before{
+.react-multiple-carousel__arrow::before {
   color: #979797 !important;
   font-size: 22px !important;
 }
-.react-multiple-carousel__arrow:hover .react-multiple-carousel__arrow::before{
+.react-multiple-carousel__arrow:hover .react-multiple-carousel__arrow::before {
   color: #979797 !important;
   background: transparent !important;
 }
-.react-multiple-carousel__arrow--right{
+.react-multiple-carousel__arrow--right {
   right: 0 !important;
 }
-.react-multiple-carousel__arrow--left{
+.react-multiple-carousel__arrow--left {
   left: 0 !important;
 }
-.react-multiple-carousel__arrow{
+.react-multiple-carousel__arrow {
   background: transparent !important;
   min-width: 25px !important;
   min-height: 25px !important;
   z-index: 1 !important;
 }
-.css-1s2u09g-control{
+.css-1s2u09g-control {
   border: none !important;
   border-bottom: 1px solid #000 !important;
   border-radius: 0 !important;
 }
-.css-1pahdxg-control:hover{
+.css-1pahdxg-control:hover {
   border-bottom: 1px solid #000 !important;
 }
-.css-1pahdxg-control{
+.css-1pahdxg-control {
   border: none !important;
   box-shadow: none !important;
   border-bottom: 1px solid #000 !important;
   border-radius: 0 !important;
 }
-.css-1okebmr-indicatorSeparator{
+.css-1okebmr-indicatorSeparator {
   width: 0px !important;
 }
-.css-14el2xx-placeholder{
+.css-14el2xx-placeholder {
   font-weight: 300;
 }
-.css-9gakcf-option{
+.css-9gakcf-option {
   background-color: #000 !important;
 }
-.css-1n7v3ny-option{
+.css-1n7v3ny-option {
   background-color: #000 !important;
   color: #fff !important;
 }
-.ratingStars span{
+.ratingStars span {
   font-size: 17px !important;
 }
-.MuiInputBase-input{
+.MuiInputBase-input {
   display: none !important;
 }
-.MuiInput-underline:before , .MuiInput-underline:after{
+.MuiInput-underline:before,
+.MuiInput-underline:after {
   display: none;
 }
-.MuiSvgIcon-root{
+.MuiSvgIcon-root {
   fill: #000 !important;
   width: 30px !important;
   height: 32px !important;
 }
-.MuiPickersDay-daySelected{
+.MuiPickersDay-daySelected {
   background-color: #000 !important;
 }
-.MuiPickersToolbar-toolbar{
+.MuiPickersToolbar-toolbar {
   background-color: #000 !important;
 }
-.MuiButton-textPrimary{
+.MuiButton-textPrimary {
   color: #000 !important;
 }
