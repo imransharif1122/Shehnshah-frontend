@@ -72,6 +72,9 @@
 .serviceBottomDetail span {
   font-weight: 600;
 }
+.showType {
+  margin-top: 33px;
+}
 .serviceIcon {
   width: 25px;
   height: 25px;

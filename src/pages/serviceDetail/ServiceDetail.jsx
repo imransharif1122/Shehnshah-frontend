@@ -18,22 +18,14 @@ import Select from "react-select"
 
 
 function ServiceDetail() {
-   const [list, setList] = useState([]);
-
    const history = useHistory();
    const apiObject = history.location.state.apiObject;
-
-   const options = [
-      { value: 'chocolate', label: 'Chocolate' },
-      { value: 'strawberry', label: 'Strawberry' },
-      { value: 'vanilla', label: 'Vanilla' },
-    ];
-   
-
+   const [list, setList] = useState([]);
+   const [selectValue, setselectValue] = useState([]);
    const loadServices = () =>{
       const result = [];
 
-      apiObject.organizationServices.forEach(task=>{
+      apiObject.organizationServices.forEach(function (task){
          const index = result.findIndex(r=>r.service.title === task.service.title);
          if(index === -1){
             result.push(task);
@@ -43,22 +35,29 @@ function ServiceDetail() {
       return result;
    }
 
-   function Options({ options }) {
-      console.log('New',options[0].option);
-      return (
-          options.map(option => 
-                      <option key={option.id} value={option.value}>                                   
-                      {option.option.value}
-                      </option>)
-                     );
-  }
+   const onlyUnique=(arr, key)=>{
+      return [...new Map(arr.map(item =>
+          [item[key]['title'], item])).values()];
+         
+   }
+   const [services, setServices] = useState(loadServices());
+   
+
+   const options = [
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' },
+    ];
+
+    
 
    const handleService = (value) =>{
       let friends = apiObject.organizationServices.filter( function (object) {
          return object.service.title.toString() === value
        });
-       setList(friends);
-       console.log(friends);
+       let filerArray=onlyUnique(friends,'option');       
+       setList(filerArray);
+      //  console.log(friends);
        handleShow();
     }
 
@@ -68,24 +67,31 @@ function ServiceDetail() {
   const handleShow = () => setShow(true);
 
    
-  function renderImage(value)
-  {
-      if (value.service.title.toString()=='Oil')
+  const renderImage = (title) =>{
+      if (title==='Oil')
       {
-        return <div className="detailCard" onClick={()=>{handleService(value.service.title)}}><img src={OilChange} className={Style.bottomWrapperImg} alt="" /> <span className={Style.itemName}>{value.service.title}</span></div>
+        return <div className="detailCard" onClick={()=>{handleService(title)}}><img src={OilChange} className={Style.bottomWrapperImg} alt="" /> <span className={Style.itemName}>{title}</span></div>
       }
   
-      if (value.service.title.toString()=='Car Wash')
+      if (title==='Car Wash')
       {
-        return <div className="detailCard" onClick={()=>{handleService(value.service.title)}}><img src={CarWash} className={Style.bottomWrapperImg} alt="" /> <span className={Style.itemName}>{value.service.title}</span></div>
+        return <div className="detailCard" onClick={()=>{handleService(title)}}><img src={CarWash} className={Style.bottomWrapperImg} alt="" /> <span className={Style.itemName}>{title}</span></div>
       }
   
-      if (value.service.title.toString()=='Battery')
+      if (title==='Battery')
       {
-        return <div className="detailCard" onClick={()=>{handleService(value.service.title)}}><img src={Battery} className={Style.bottomWrapperImg} alt="" /> <span className={Style.itemName}>{value.service.title}</span></div>
+        return <div className="detailCard" onClick={()=>{handleService(title)}}><img src={Battery} className={Style.bottomWrapperImg} alt="" /> <span className={Style.itemName}>{title}</span></div>
       }
       
   }
+
+  function handleAddrTypeChange(e) {
+     console.log(e.service.title);
+   setselectValue(e.option.title);
+   setServices([e])
+   // renderImage(e.option.title)
+   handleClose();
+}
    // console.log(loadServices());
   
    // const { movieId } = useParams();
@@ -114,20 +120,24 @@ function ServiceDetail() {
                Select Service
             </div>
             <div className="parentCard">
-            {loadServices().map(task=>{
+            {services.map(task=>{
 
-            return  renderImage(task)
+            return  renderImage(task.service.title)
 
             })}
+               <div className="showType" >{selectValue}</div>
             </div>
 
                <Modal show={show} onHide={handleClose} size="sm" centered>
                <Modal.Header closeButton>
                </Modal.Header>
                <Modal.Body>
-  
+
                <Select
-                           options={list} 
+                           onChange={handleAddrTypeChange}
+                           options={list}
+                           getOptionLabel={(list)=>list.option.title} 
+                           getOptionValue={(list)=>list.option._id}
                            isSearchable={true}
                            placeholder="Select your vehicle"
                            menuColor='black'
